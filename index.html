@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--Jquery (måste länkas längst upp, annars funkar inget)-->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+        crossorigin="anonymous"></script>
+    <!--JavaScript-->
+        <script src="javascript.js"></script>
+    <!--CSS-->
+    <link href="stylesheet.css" rel="stylesheet">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bokhylla</title>
+    
+</head>
+<body>
+    
+
+    <h1 class="title">Bokhylla</h1>
+    
+	    
+	   
+	    
+        <div>
+            <ul>
+                <h3>För godkänt ska du göra en webbsida som: </h3>
+                <li> Göra en webbsida som är publicerad online (exempelvis med GitHub pages)</li>
+                <li> kan begära en API-nyckel</li>
+                <li>kan lägga till en bok</li>
+                <li>kan se vilka böcker som man har lagt in</li>
+                <li> har ett funktionellt gränssnitt</li>
+                <li> använder CSS för att styla sidan</li>
+                <li> försöker igen om ett API-anrop misslyckas, upp till 5 gånger</li>
+                <li>visar om det senaste anropet till API:et lyckades eller misslyckades, på webbsidan</li>
+                <li> inte genererar några JavaScript-fel i konsolen när man använder den</li>
+            
+            </ol>
+
+
+        </div>
+
+        <button id="keyButton"> Hämta nyckel </button>
+        <input type="text" name="" id="input-key">
+        <button id="saveKey">Spara nyckel</button>
+
+        <span id="key-span"></span><br><br> <!--Ska nyckeln ens visas på hemsidan?-->
+
+        
+
+        <input id="title-input" type="text" placeholder="Lägg till titel"> </input>
+    
+        <input id="author-input" type="text" placeholder="Lägg till författare"> </input>
+
+        <button id="add-books">Lägg till bok</button><br><br>
+        
+        
+
+        
+
+        <button id="get-book"> Hämta böcker </button>
+
+        <ul id="lista">
+            
+
+        </ul>
+
+       
+        
+        
+
+
+
+    
+
+</body>
+</html>
