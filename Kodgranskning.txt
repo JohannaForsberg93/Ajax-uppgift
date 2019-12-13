@@ -1,0 +1,18 @@
+
+Kodgranskning av Augustins kod:
+
+
+Bra saker:
+
+Bra namn på variabler och funktioner där man förstår vad som sker. 
+
+Lättläst kod och bra funktioner.
+
+Jättefin och användarvänlig sida.
+
+
+
+Saker som kan göras bättre:
+
+Det enda jag kom på var funktionen för att ta bort böcker, 
+men jag tyckte att allt såg bra ut. 
